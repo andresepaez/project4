@@ -65,7 +65,7 @@ names(a4)<-gsub("BodyAcc","BA",names(a4),fixed=TRUE)
 names(a4)<-gsub("BodyGyro","BG",names(a4),fixed=TRUE)
 names(a4)<-gsub("GravityAcc","GrA",names(a4),fixed=TRUE)
 
-a5<-group_by(a4,a4$subject,a4$activity)
+#a5<-group_by(a4,a4$subject,a4$activity)
 
 a5<-a4%>%group_by(subject,activity)%>%summarise_all(mean)
 
