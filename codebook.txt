@@ -1,0 +1,100 @@
+FROM 563 VARIABLES, ONLY 88 WERE EXTRACTED
+
+VARIABLE			MEANING
+
+ACTIVITY AND SUBJECT TEST
+-------------------------------------------------------------------------------------------
+activity			activity of the subject (walking, walking_upstairs,, etc)
+subject				subject who did the test or train
+
+MEAN MEASURES EXTRACTED FROM ORIGINAL DATA
+-------------------------------------------------------------------------------------------
+tBA-mean-X			average for each subject and activity of tBodyAcc-mean()-X
+tBA-mean-Y			average for each subject and activity of tBodyAcc-mean()-Y
+tBA-mean-Z			average for each subject and activity of tBodyAcc-mean()-Z
+tGrA-mean-X			average for each subject and activity of tGravityAcc-mean()-X
+tGrA-mean-Y			average for each subject and activity of tGravityAcc-mean()-Y
+tGrA-mean-Z			average for each subject and activity of tGravityAcc-mean()-Z
+tBAJerk-mean-X			average for each subject and activity of tBodyAccJerk-mean()-X
+tBAJerk-mean-Y			average for each subject and activity of tBodyAccJerk-mean()-Y
+tBAJerk-mean-Z			average for each subject and activity of tBodyAccJerk-mean()-Z
+tBG-mean-X			average for each subject and activity of tBodyGyro-mean()-X
+tBG-mean-Y			average for each subject and activity of tBodyGyro-mean()-Y
+tBG-mean-Z			average for each subject and activity of tBodyGyro-mean()-Z
+tBGJerk-mean-X			average for each subject and activity of tBodyGyroJerk-mean()-X
+tBGJerk-mean-Y			average for each subject and activity of tBodyGyroJerk-mean()-Y
+tBGJerk-mean-Z			average for each subject and activity of tBodyGyroJerk-mean()-Z
+tBAMag-mean			average for each subject and activity of tBodyAccMag-mean()
+tGrAMag-mean			average for each subject and activity of tGravityAccMag-mean()
+tBAJerkMag-mean			average for each subject and activity of tBodyAccJerkMag-mean()
+tBGMag-mean			average for each subject and activity of tBodyGyroMag-mean()
+tBGJerkMag-mean			average for each subject and activity of tBodyGyroJerkMag-mean()
+fBA-mean-X			average for each subject and activity of fBodyAcc-mean()-X
+fBA-mean-Y			average for each subject and activity of fBodyAcc-mean()-Y
+fBA-mean-Z			average for each subject and activity of fBodyAcc-mean()-Z
+fBA-meanFreq-X			average for each subject and activity of fBodyAcc-meanFreq()-X
+fBA-meanFreq-Y			average for each subject and activity of fBodyAcc-meanFreq()-Y
+fBA-meanFreq-Z			average for each subject and activity of fBodyAcc-meanFreq()-Z
+fBAJerk-mean-X			average for each subject and activity offBodyAccJerk-mean()-X
+fBAJerk-mean-Y			average for each subject and activity of fBodyAccJerk-mean()-Y
+fBAJerk-mean-Z			average for each subject and activity of fBodyAccJerk-mean()-Z
+fBAJerk-meanFreq-X		average for each subject and activity of fBodyAccJerk-meanFreq()-X
+fBAJerk-meanFreq-Y		average for each subject and activity of fBodyAccJerk-meanFreq()-Y
+fBAJerk-meanFreq-Z		average for each subject and activity of fBodyAccJerk-meanFreq()-Z
+fBG-mean-X			average for each subject and activity of fBodyGyro-mean()-X
+fBG-mean-Y			average for each subject and activity of fBodyGyro-mean()-Y
+fBG-mean-Z			average for each subject and activity of fBodyGyro-mean()-Z
+fBG-meanFreq-X	 		average for each subject and activity of fBodyGyro-meanFreq()-X
+fBG-meanFreq-Y			average for each subject and activity of fBodyGyro-meanFreq()-Y
+fBG-meanFreq-Z			average for each subject and activity of fBodyGyro-meanFreq()-Z
+fBAMag-mean			average for each subject and activity of fBodyAccMag-mean()
+fBAMag-meanFreq			average for each subject and activity of fBodyAccMag-meanFreq()
+fBodyBAJerkMag-mean		average for each subject and activity of fBodyBodyAccJerkMag-mean()
+fBodyBAJerkMag-meanFreq		average for each subject and activity of fBodyBodyAccJerkMag-meanFreq()
+fBodyBGMag-mean			average for each subject and activity of fBodyBodyGyroMag-mean()
+fBodyBGMag-meanFreq		average for each subject and activity of fBodyBodyGyroMag-meanFreq()
+fBodyBGJerkMag-mean		average for each subject and activity of fBodyBodyGyroJerkMag-mean()
+fBodyBGJerkMag-meanFreq		average n for each subject and activity of }fBodyBodyGyroJerkMag-meanFreq()
+angle(tBAMean,gravity)		average n for each subject and activity of angle(tBodyAccMean,gravity)
+angle(tBAJerkMean),gravityMean)	average for each subject and activity of  angle(tBodyAccJerkMean),gravityMean)
+angle(tBGMean,gravityMean)	average for each subject and activity of angle(tBodyGyroMean,gravityMean)
+angle(tBGJerkMean,gravityMean)	average for each subject and activity of angle(tBodyGyroJerkMean,gravityMean)
+angle(X,gravityMean)		average for each subject and activity of angle(X,gravityMean)
+angle(Y,gravityMean)		average for each subject and activity of angle(Y,gravityMean)
+angle(Z,gravityMean)		average for each subject and activity of angle(Z,gravityMean)
+
+STD MEASURES EXTRACTED FROM ORIGINAL DATA
+-------------------------------------------------------------------------------------------
+tBA-std-X			average for each subject and activity of tBodyAcc-std()-X
+tBA-std-Y			average for each subject and activity of tBodyAcc-std()-Y
+tBA-std-Z			average for each subject and activity of tBodyAcc-std()-Z
+tGrA-std-X			average for each subject and activity of tGravityAcc-std()-X
+tGrA-std-Y			average for each subject and activity of tGravityAcc-std()-Y
+tGrA-std-Z			average for each subject and activity of tGravityAcc-std()-Z
+tBAJerk-std-X			average for each subject and activity of tBodyAccJerk-std()-X
+tBAJerk-std-Y			average for each subject and activity of tBodyAccJerk-std()-Y
+tBAJerk-std-Z			average for each subject and activity of tBodyAccJerk-std()-Z
+tBG-std-X			average for each subject and activity of tBodyGyro-std()-X
+tBG-std-Y			average for each subject and activity of tBodyGyro-std()-Y
+tBG-std-Z			average ean for each subject and activity of tBodyGyro-std()-Z
+tBGJerk-std-X			average for each subject and activity of tBodyGyroJerk-std()-X
+tBGJerk-std-Y			average for each subject and activity of tBodyGyroJerk-std()-Y
+tBGJerk-std-Z			average for each subject and activity of tBodyGyroJerk-std()-Z
+tBAMag-std			average for each subject and activity of tBodyAccMag-std()
+tGrAMag-std			average for each subject and activity of tGravityAccMag-std()
+tBAJerkMag-std			average for each subject and activity of tBodyAccJerkMag-std()
+tBGMag-std			average for each subject and activity of tBodyGyroMag-std()
+tBGJerkMag-std			average for each subject and activity of tBodyGyroJerkMag-std()
+fBA-std-X			average for each subject and activity of fBodyAcc-std()-X
+fBA-std-Y			average for each subject and activity of fBodyAcc-std()-Y
+fBA-std-Z			average for each subject and activity of fBodyAcc-std()-Z
+fBAJerk-std-X			average for each subject and activity of fBodyAccJerk-std()-X
+fBAJerk-std-Y			average for each subject and activity of fBodyAccJerk-std()-Y
+fBAJerk-std-Z			average for each subject and activity of fBodyAccJerk-std()-Z
+fBG-std-X			average for each subject and activity of fBodyGyro-std()-X
+fBG-std-Y			average for each subject and activity of fBodyGyro-std()-Y
+fBG-std-Z			average for each subject and activity of fBodyGyro-std()-Z 
+fBAMag-std			average for each subject and activity of fBodyAccMag-std()
+fBodyBAJerkMag-std		average for each subject and activity of fBodyBodyAccJerkMag-std()
+fBodyBGMag-std			average for each subject and activity of fBodyBodyGyroMag-std()
+fBodyBGJerkMag-std		average for each subject and activity of fBodyBodyGyroJerkMag-std()

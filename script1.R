@@ -32,6 +32,7 @@ a1$activity[a1$activity==4]<-"SITTING"
 a1$activity[a1$activity==5]<-"STANDING"
 a1$activity[a1$activity==6]<-"LAYING"
 
+#train Data
 workdirectory<-"D:/workspace/R/4project/UCI HAR Dataset/train"
 setwd(workdirectory)
 
@@ -65,10 +66,7 @@ names(a4)<-gsub("BodyAcc","BA",names(a4),fixed=TRUE)
 names(a4)<-gsub("BodyGyro","BG",names(a4),fixed=TRUE)
 names(a4)<-gsub("GravityAcc","GrA",names(a4),fixed=TRUE)
 
-#a5<-group_by(a4,a4$subject,a4$activity)
 
 a5<-a4%>%group_by(subject,activity)%>%summarise_all(mean)
 
 
-#test1
-#test2
