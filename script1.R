@@ -57,7 +57,7 @@ a2$activity[a2$activity==6]<-"LAYING"
 a3<-bind_rows(a1,a2)
 
 rm(a1,a2,features,subject,x,xtrain,y)
-c1<-c(grep("mean",colnames(a3)),grep("Mean",colnames(a3)),grep("std",colnames(a3)))
+c1<-c(1,2,grep("mean",colnames(a3)),grep("Mean",colnames(a3)),grep("std",colnames(a3)))
 
 a4<-select(a3,c1)
 names(a4)<-gsub("()","",names(a4),fixed=TRUE)
@@ -65,7 +65,9 @@ names(a4)<-gsub("BodyAcc","BA",names(a4),fixed=TRUE)
 names(a4)<-gsub("BodyGyro","BG",names(a4),fixed=TRUE)
 names(a4)<-gsub("GravityAcc","GrA",names(a4),fixed=TRUE)
 
+a5<-group_by(a4,a4$subject,a4$activity)
 
+a5<-a4%>%group_by(subject,activity)%>%summarise_all(mean)
 
 
 #test1
